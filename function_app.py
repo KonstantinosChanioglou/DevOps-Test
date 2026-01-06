@@ -37,7 +37,7 @@ def BlobTrigger(myblob: func.InputStream):
                 f"Blob Size: {myblob.length} bytes")
 
 
-@app.route(route="readblob")
+@app.route(route="readblobkostas")
 def http_read_blob(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger processing a request.')
 
